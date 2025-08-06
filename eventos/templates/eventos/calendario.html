@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendario de Actividades</title>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 2rem; }
+        #calendar { max-width: 900px; margin: auto; }
+        #formulario { margin-top: 2rem; display: none; border: 1px solid #ccc; padding: 1rem; background: #f9f9f9; }
+        select, input, textarea, button { display: block; margin: 0.5rem 0; width: 100%; padding: 0.5rem; }
+        .form-group { margin-bottom: 1rem; }
+        .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+
+<h1>Calendario de Actividades</h1>
+<div id="calendar"></div>
+
+<div id="formulario">
+    <h2>Registrar Actividades para el <span id="fechaSeleccionada"></span></h2>
+
+    <!-- Manejo de personas -->
+    <div class="form-group">
+        <label>Seleccionar persona:</label>
+        <select id="persona">
+            {% for persona in personas %}
+                <option value="{{ persona.id }}">{{ persona.nombre }}</option>
+            {% endfor %}
+        </select>
+        <input type="text" id="nueva_persona" placeholder="Agregar nueva persona">
+        <button onclick="agregarPersona()">Agregar</button>
+        <button onclick="eliminarPersona()">Eliminar</button>
+    </div>
+
+    <!-- Actividad 1 -->
+    <div class="form-group">
+        <label>Actividad 1 *</label>
+        <select id="actividad_1" required>
+            {% for act in actividades %}
+                <option value="{{ act.id }}">{{ act.nombre }}</option>
+            {% endfor %}
+        </select>
+        <input type="number" id="horas_1" placeholder="Horas" step="0.1" min="0" required>
+    </div>
+
+    <!-- Actividad 2 -->
+    <div class="form-group">
+        <label>Actividad 2 (opcional)</label>
+        <select id="actividad_2">
+            <option value="">---</option>
+            {% for act in actividades %}
+                <option value="{{ act.id }}">{{ act.nombre }}</option>
+            {% endfor %}
+        </select>
+        <input type="number" id="horas_2" placeholder="Horas" step="0.1" min="0" required>
+    </div>
+
+    <!-- Actividad 3 -->
+    <div class="form-group">
+        <label>Actividad 3 (opcional)</label>
+        <select id="actividad_3">
+            <option value="">---</option>
+            {% for act in actividades %}
+                <option value="{{ act.id }}">{{ act.nombre }}</option>
+            {% endfor %}
+        </select>
+        <input type="number" id="horas_3" placeholder="Horas" step="0.1" min="0" required>
+    </div>
+
+    <div class="btn-group">
+        <button onclick="registrarActividad()">Registrar</button>
+
+        <!-- Deshacer último registro -->
+        <button onclick="deshacerUltimoRegistro()">Deshacer último registro</button>
+
+        <!-- Ver resumen -->
+        <a id="linkResumen" href="#">
+            <button type="button">Ver resumen</button>
+        </a>
+    </div>
+</div>
+
+<!-- CAMBIO AQUI: deshacerUltimoRegistro envía persona_id y fecha, y añade encabezado CSRF -->
+<script>
+    let fechaActual = '';
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const calendarEl = document.getElementById('calendar');
+        const calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            locale: 'es',
+            dateClick: function (info) {
+                fechaActual = info.dateStr;
+                document.getElementById('formulario').style.display = 'block';
+                document.getElementById('fechaSeleccionada').textContent = fechaActual;
+
+                const linkResumen = document.getElementById('linkResumen');
+                linkResumen.href = `/resumen/${fechaActual}`;
+            },
+            events: '/eventos_json/'
+        });
+        calendar.render();
+    });
+
+    function agregarPersona() {
+        const nombre = document.getElementById('nueva_persona').value;
+        if (!nombre) return alert('Escribe un nombre');
+        axios.post('/agregar_persona/', { nombre })
+            .then(res => {
+                const select = document.getElementById('persona');
+                const option = new Option(res.data.nombre, res.data.id);
+                select.add(option);
+                select.value = res.data.id;
+                document.getElementById('nueva_persona').value = '';
+            });
+    }
+
+    function eliminarPersona() {
+        const select = document.getElementById('persona');
+        const nombre = select.options[select.selectedIndex].text;
+        if (!confirm(`¿Eliminar a ${nombre}?`)) return;
+        axios.post('/eliminar_persona/', { nombre })
+            .then(() => {
+                select.remove(select.selectedIndex);
+            });
+    }
+
+    function registrarActividad() {
+        const payload = {
+            persona: document.getElementById('persona').value,
+            fecha: fechaActual,
+            actividad_1: document.getElementById('actividad_1').value,
+            horas_1: document.getElementById('horas_1').value,
+            actividad_2: document.getElementById('actividad_2').value || null,
+            horas_2: document.getElementById('horas_2').value || null,
+            actividad_3: document.getElementById('actividad_3').value || null,
+            horas_3: document.getElementById('horas_3').value || null
+        };
+
+        if (!payload.actividad_1 || !payload.horas_1) {
+            alert('Actividad 1 y horas son obligatorias');
+            return;
+        }
+
+        axios.post('/registrar_actividad/', payload)
+            .then(() => {
+                alert('Registro guardado');
+                location.reload();
+            })
+            .catch(err => {
+                alert('Error al registrar');
+                console.error(err);
+            });
+    }
+
+    function deshacerUltimoRegistro() {
+        const select = document.getElementById('persona');
+        const personaId = select.value;
+
+        if (!personaId || !fechaActual) {
+            alert("Selecciona una persona y una fecha válida.");
+            return;
+        }
+
+        axios.post('/deshacer_ultimo_registro/', {
+            persona_id: personaId,
+            fecha: fechaActual
+        }, {
+            headers: {
+                'X-CSRFToken': getCSRFToken()
+            }
+        })
+        .then(res => {
+            if (res.data.success) {
+                alert("Registro eliminado");
+                location.reload();
+            } else {
+                alert(res.data.error || 'No se pudo deshacer el registro.');
+            }
+        })
+        .catch(error => {
+            console.error(error);
+            alert('Error al intentar deshacer el registro');
+        });
+    }
+
+    function getCSRFToken() {
+        const name = 'csrftoken';
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.startsWith(name + '=')) {
+                return decodeURIComponent(cookie.substring(name.length + 1));
+            }
+        }
+        return '';
+    }
+</script>
+
+
+</body>
+</html>
+

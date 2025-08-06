@@ -1,0 +1,72 @@
+{% load extras %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resumen de Horas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #ddd;
+        }
+        .botones {
+            margin-top: 20px;
+        }
+        .botones a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .botones button {
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Resumen de Horas por Persona para el {{ fecha }}</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>Nombre</th>
+                {% for codigo in codigos %}
+                    <th>{{ codigo }}</th>
+                {% endfor %}
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fila in datos %}
+                <tr>
+                    <td>{{ fila.numero }}</td>
+                    <td>{{ fila.nombre }}</td>
+                    {% for h in fila.horas %}
+                        <td>{{ h|floatformat:1 }}</td>
+                    {% endfor %}
+                    <td><strong>{{ fila.total }}</strong></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="botones">
+        <a href="{% url 'calendario' %}">
+            <button>Volver al calendario</button>
+        </a>
+
+        <a href="{% url 'exportar_excel' fecha %}">
+            <button>Descargar Excel</button>
+        </a>
+    </div>
+</body>
+</html>
