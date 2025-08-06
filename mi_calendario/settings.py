@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)zd!k9iexge@h8g4fc@n5+!3m*lkgl@=kd!#%nbf$zsskekmf1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mi-calendario.onrender.com']
 
 
 # Application definition
