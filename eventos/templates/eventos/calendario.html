@@ -13,6 +13,21 @@
         select, input, textarea, button { display: block; margin: 0.5rem 0; width: 100%; padding: 0.5rem; }
         .form-group { margin-bottom: 1rem; }
         .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
+        .dia-seleccionado {
+            background-color: #007bff;
+            color: white;
+            position: relative;
+            font-weight: bold;
+            border-radius: 50%;
+        }
+        .dia-seleccionado::after {
+            content: "✔";
+            position: absolute;
+            top: 2px;
+            right: 5px;
+            font-size: 14px;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -98,6 +113,18 @@
                 document.getElementById('formulario').style.display = 'block';
                 document.getElementById('fechaSeleccionada').textContent = fechaActual;
 
+                // Remover clase de selección anterior
+                document.querySelectorAll('.fc-daygrid-day').forEach(el => {
+                    el.classList.remove('dia-seleccionado');
+                });
+
+                // Añadir clase al nuevo día seleccionado
+                const diaSeleccionado = document.querySelector(`[data-date="${info.dateStr}"]`);
+                if (diaSeleccionado) {
+                    diaSeleccionado.classList.add('dia-seleccionado');
+                }
+
+                // Actualizar link de resumen
                 const linkResumen = document.getElementById('linkResumen');
                 linkResumen.href = `/resumen/${fechaActual}`;
             },
@@ -183,7 +210,6 @@
         .then(res => {
             if (res.data.success) {
                 alert("Registro eliminado");
-                location.reload();
             } else {
                 alert(res.data.error || 'No se pudo deshacer el registro.');
             }
