@@ -149,7 +149,13 @@
         axios.post('/registrar_actividad/', payload)
             .then(() => {
                 alert('Registro guardado');
-                location.reload();
+                 // Limpia campos del formulario
+                document.getElementById('actividad_1').selectedIndex = 0;
+                document.getElementById('horas_1').value = '';
+                document.getElementById('actividad_2').selectedIndex = 0;
+                document.getElementById('horas_2').value = '';
+                document.getElementById('actividad_3').selectedIndex = 0;
+                document.getElementById('horas_3').value = '';
             })
             .catch(err => {
                 alert('Error al registrar');
