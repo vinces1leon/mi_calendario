@@ -87,7 +87,7 @@ def resumen_registros(request, fecha):
         key=natural_key
     )
 
-    personas = Persona.objects.all().order_by('nombre')
+    personas = Persona.objects.all().order_by('id')
     datos = []
 
     for idx, persona in enumerate(personas, 1):
