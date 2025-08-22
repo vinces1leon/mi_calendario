@@ -1,0 +1,1882 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-06T18:19:33.300Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Paz Sanchez, George Charlie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-06T18:19:42.876Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Zarate Zelaya, Andres",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-06T18:19:46.595Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Ramirez Espinoza, Benjamin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-06T18:19:50.316Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Lezano Chiclla,Arnaldo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-06T18:19:53.392Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Ricse Huaynalaya, Abelardo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-06T18:20:10.900Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Oliva Callirgos, Angel Gabriel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-06T18:20:15.581Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Oliva Callirgos, Pedro Manuel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-06T18:20:20.506Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Roque Mamani, Jorge Luis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-06T18:20:25.383Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Quiroz Pupuche, Carlos Antonio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-06T18:20:28.599Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Mariñas Silupu, Juan Carlos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-06T18:20:31.852Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Trujillo Flores, Jorge Luis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-06T18:20:35.175Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Huayna Salcedo, Luis Alberto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-06T18:20:38.454Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Ramos Huamani, David Edmundo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-06T18:20:41.845Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Limas Santos, Gilmer Liberato",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-06T18:20:45.217Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Velasquez Chuquihuanga, Deyber",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-06T18:20:48.897Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Pilco Saquiray, Alex",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-06T18:20:53.046Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "Sanchez Ruiz, Cristopher Serge",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-06T18:20:56.465Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Chahuayo Fajardo, Juan Crisostomo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-06T18:20:59.994Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "Espinoza Aguilar, Mario Luis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-06T18:21:03.459Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "Purisaca Campos, Ronny Jose Hildemaro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-06T18:21:07.678Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Muñoz Carranza, Jesús Antony",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-06T18:21:10.971Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "Leon Coba, Jorge Antonio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-06T18:21:15.221Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "Izquierdo Coba, Jordan Daniel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-06T18:21:18.931Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "Santos Gabino, Abanto Enco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-06T18:21:22.614Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "25",
+    "object_repr": "Bauitsta Abanto, Yerson Franklin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-06T18:21:26.237Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "26",
+    "object_repr": "Vargas Sinarahua, Jhon Lewis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-06T18:21:30.362Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "27",
+    "object_repr": "Lliuyacc Uscata, Yeferson",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-06T18:21:33.660Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "28",
+    "object_repr": "Rojas Quispe, Alfredo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-06T18:21:36.922Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "Robalino Pisco, Jhanero",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-06T18:21:41.426Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "30",
+    "object_repr": "Tacuri Jorge, Fermin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-06T18:22:05.810Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "T1 - TOPOGRAFIA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-06T18:22:09.177Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "T2 - ACARREO DE MATERIAL",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-06T18:22:12.593Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "T3 - SEÑALIZACION",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-06T18:22:15.663Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "T4 - PERFILADO DE MURO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-06T18:22:18.933Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "T5 - INSTALACIONES ELECTRICAS PROVISIONALES",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-06T18:22:22.212Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "T6 - INSTALACACION DE ACERO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-06T18:22:25.354Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "T7 - ENCOFRADO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-06T18:22:28.895Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "T8 - VACEADO CONCRETO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-06T18:22:32.260Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "T9 - DESENCOFRADO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-06T18:22:35.626Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "T10 - ALBAÑILERIA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-06T18:22:39.454Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "T11 - GESTION VECINAL",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-06T18:22:44.006Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "T12 - LIMPIEZA DE OBRA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-06T18:22:47.203Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "T13 - MOVILIZACION Y DESMOVILIZACION DE ENCOFRADOS, EQIPOS Y HERRAMIENTAS)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-08-06T18:22:51.436Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "T14 - IISS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-08-06T18:22:54.948Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "T15 - BLOQUETERO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-08-06T18:23:00.029Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "T16 - CASETA DE VENTAS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-08-06T18:23:03.009Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "T17 - IIEE Provicionales",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-08-06T18:23:06.202Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "T18 - RELLENO CON MATERIAL AFIRMADO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-08-06T18:23:09.351Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "T19",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-08-06T18:23:12.935Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "T20",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-08-06T18:23:16.574Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "T21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-08-06T18:23:19.955Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "T22",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-08-06T18:23:23.605Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "T23",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-08-06T18:23:27.913Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "T24",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-08-06T19:12:22.604Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Lliuyacc Uscata, Yeferson - 2025-08-06",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-08-06T19:12:26.885Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Quiroz Pupuche, Carlos Antonio - 2025-08-06",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-08-06T20:33:43.898Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Oliva Callirgos, Pedro Manuel - 2025-08-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-08-06T20:33:46.720Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Sebastian - 2025-08-06",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-08-19T02:10:31.438Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "Aerocutipa Huayaney, Jose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-08-19T02:10:38.979Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "Sarmiento Perez, Luis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-08-19T02:10:56.218Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "38",
+    "object_repr": "Sifuentes Rafael, Ricardo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-08-19T02:11:04.460Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "39",
+    "object_repr": "Delgado Delgado, Geiner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-08-19T02:11:12.818Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "40",
+    "object_repr": "Castillo Cordova, Dennis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-19T02:11:18.761Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "41",
+    "object_repr": "Astete Reyes, Jhon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-19T02:11:24.744Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "42",
+    "object_repr": "Sosa Izquierdo, Alejandro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-19T02:11:37.309Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "43",
+    "object_repr": "ALENCASTRE VALQUI, EDWARD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-19T02:11:45.369Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "44",
+    "object_repr": "CHIROQUE ENEQUE,SIXTO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-19T02:11:53.047Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "45",
+    "object_repr": "MACHACA TORRES, RAUL",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-19T02:12:04.271Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "46",
+    "object_repr": "MENDOZA CELESTINO, VICTOR",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-19T02:12:17.942Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "47",
+    "object_repr": "ENCINAS ASTUPIÑA,JOHAN",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add evento",
+    "content_type": 7,
+    "codename": "add_evento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change evento",
+    "content_type": 7,
+    "codename": "change_evento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete evento",
+    "content_type": 7,
+    "codename": "delete_evento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view evento",
+    "content_type": 7,
+    "codename": "view_evento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add actividad",
+    "content_type": 8,
+    "codename": "add_actividad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change actividad",
+    "content_type": 8,
+    "codename": "change_actividad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete actividad",
+    "content_type": 8,
+    "codename": "delete_actividad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view actividad",
+    "content_type": 8,
+    "codename": "view_actividad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add registro",
+    "content_type": 9,
+    "codename": "add_registro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change registro",
+    "content_type": 9,
+    "codename": "change_registro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete registro",
+    "content_type": 9,
+    "codename": "delete_registro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view registro",
+    "content_type": 9,
+    "codename": "view_registro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add persona",
+    "content_type": 10,
+    "codename": "add_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change persona",
+    "content_type": 10,
+    "codename": "change_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete persona",
+    "content_type": 10,
+    "codename": "delete_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view persona",
+    "content_type": 10,
+    "codename": "view_persona"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$zF0AbiYejSybBtqzeBYbnP$ugkpZgpMEl+IHjg2fSSytbCviYpcggV9ySSEcg5VymY=",
+    "last_login": "2025-08-06T18:18:38.803Z",
+    "is_superuser": true,
+    "username": "sa.vinces",
+    "first_name": "",
+    "last_name": "",
+    "email": "sebastian.a.vinces@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-06T17:53:52.563Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "eventos",
+    "model": "evento"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "eventos",
+    "model": "actividad"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "eventos",
+    "model": "registro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "eventos",
+    "model": "persona"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "apwp1jrfdycel7yrv7ylrf4acgz3alm9",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBAYNCle8_QzAyDVA1NSrsy3l2bdKHb_977LzXgutRh7TIPY1ZnZdXhdyPkh7QN5Du226R5ass8kt4UvdOur1OW52V3_w4q9vqtXclS2DtrqYABHxMWG4AiF_JiOZ1cQISMxMmk4EiAMBkWBkdwjOr9AQQPOLw:1ujiik:j7KV_o8D1P0NsTIucJ-JzWmeH1tLEDvLDNqiCO9NJ2c",
+    "expire_date": "2025-08-20T18:18:38.808Z"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 1,
+  "fields": {
+    "nombre": "Paz Sanchez, George Charlie"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 2,
+  "fields": {
+    "nombre": "Zarate Zelaya, Andres"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 3,
+  "fields": {
+    "nombre": "Ramirez Espinoza, Benjamin"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 4,
+  "fields": {
+    "nombre": "Lezano Chiclla,Arnaldo"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 5,
+  "fields": {
+    "nombre": "Ricse Huaynalaya, Abelardo"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 6,
+  "fields": {
+    "nombre": "Oliva Callirgos, Angel Gabriel"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 7,
+  "fields": {
+    "nombre": "Oliva Callirgos, Pedro Manuel"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 8,
+  "fields": {
+    "nombre": "Roque Mamani, Jorge Luis"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 9,
+  "fields": {
+    "nombre": "Quiroz Pupuche, Carlos Antonio"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 10,
+  "fields": {
+    "nombre": "Mariñas Silupu, Juan Carlos"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 11,
+  "fields": {
+    "nombre": "Trujillo Flores, Jorge Luis"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 12,
+  "fields": {
+    "nombre": "Huayna Salcedo, Luis Alberto"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 13,
+  "fields": {
+    "nombre": "Ramos Huamani, David Edmundo"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 14,
+  "fields": {
+    "nombre": "Limas Santos, Gilmer Liberato"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 15,
+  "fields": {
+    "nombre": "Velasquez Chuquihuanga, Deyber"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 16,
+  "fields": {
+    "nombre": "Pilco Saquiray, Alex"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 17,
+  "fields": {
+    "nombre": "Sanchez Ruiz, Cristopher Serge"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 18,
+  "fields": {
+    "nombre": "Chahuayo Fajardo, Juan Crisostomo"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 19,
+  "fields": {
+    "nombre": "Espinoza Aguilar, Mario Luis"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 20,
+  "fields": {
+    "nombre": "Purisaca Campos, Ronny Jose Hildemaro"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 21,
+  "fields": {
+    "nombre": "Muñoz Carranza, Jesús Antony"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 22,
+  "fields": {
+    "nombre": "Leon Coba, Jorge Antonio"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 23,
+  "fields": {
+    "nombre": "Izquierdo Coba, Jordan Daniel"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 24,
+  "fields": {
+    "nombre": "Santos Gabino, Abanto Enco"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 25,
+  "fields": {
+    "nombre": "Bauitsta Abanto, Yerson Franklin"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 26,
+  "fields": {
+    "nombre": "Vargas Sinarahua, Jhon Lewis"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 27,
+  "fields": {
+    "nombre": "Lliuyacc Uscata, Yeferson"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 28,
+  "fields": {
+    "nombre": "Rojas Quispe, Alfredo"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 29,
+  "fields": {
+    "nombre": "Robalino Pisco, Jhanero"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 30,
+  "fields": {
+    "nombre": "Tacuri Jorge, Fermin"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 36,
+  "fields": {
+    "nombre": "Aerocutipa Huayaney, Jose"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 37,
+  "fields": {
+    "nombre": "Sarmiento Perez, Luis"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 38,
+  "fields": {
+    "nombre": "Sifuentes Rafael, Ricardo"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 39,
+  "fields": {
+    "nombre": "Delgado Delgado, Geiner"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 40,
+  "fields": {
+    "nombre": "Castillo Cordova, Dennis"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 41,
+  "fields": {
+    "nombre": "Astete Reyes, Jhon"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 42,
+  "fields": {
+    "nombre": "Sosa Izquierdo, Alejandro"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 43,
+  "fields": {
+    "nombre": "ALENCASTRE VALQUI, EDWARD"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 44,
+  "fields": {
+    "nombre": "CHIROQUE ENEQUE,SIXTO"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 45,
+  "fields": {
+    "nombre": "MACHACA TORRES, RAUL"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 46,
+  "fields": {
+    "nombre": "MENDOZA CELESTINO, VICTOR"
+  }
+},
+{
+  "model": "eventos.persona",
+  "pk": 47,
+  "fields": {
+    "nombre": "ENCINAS ASTUPIÑA,JOHAN"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 1,
+  "fields": {
+    "nombre": "T1 - TOPOGRAFIA"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 2,
+  "fields": {
+    "nombre": "T2 - ACARREO DE MATERIAL"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 3,
+  "fields": {
+    "nombre": "T3 - SEÑALIZACION"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 4,
+  "fields": {
+    "nombre": "T4 - PERFILADO DE MURO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 5,
+  "fields": {
+    "nombre": "T5 - INSTALACIONES ELECTRICAS PROVISIONALES"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 6,
+  "fields": {
+    "nombre": "T6 - INSTALACACION DE ACERO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 7,
+  "fields": {
+    "nombre": "T7 - ENCOFRADO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 8,
+  "fields": {
+    "nombre": "T8 - VACEADO CONCRETO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 9,
+  "fields": {
+    "nombre": "T9 - DESENCOFRADO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 10,
+  "fields": {
+    "nombre": "T10 - ALBAÑILERIA"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 11,
+  "fields": {
+    "nombre": "T11 - GESTION VECINAL"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 12,
+  "fields": {
+    "nombre": "T12 - LIMPIEZA DE OBRA"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 13,
+  "fields": {
+    "nombre": "T13 - MOVILIZACION Y DESMOVILIZACION DE ENCOFRADOS, EQIPOS Y HERRAMIENTAS)"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 14,
+  "fields": {
+    "nombre": "T14 - IISS"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 15,
+  "fields": {
+    "nombre": "T15 - BLOQUETERO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 16,
+  "fields": {
+    "nombre": "T16 - CASETA DE VENTAS"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 17,
+  "fields": {
+    "nombre": "T17 - IIEE Provicionales"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 18,
+  "fields": {
+    "nombre": "T18 - RELLENO CON MATERIAL AFIRMADO"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 19,
+  "fields": {
+    "nombre": "T19"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 20,
+  "fields": {
+    "nombre": "T20"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 21,
+  "fields": {
+    "nombre": "T21"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 22,
+  "fields": {
+    "nombre": "T22"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 23,
+  "fields": {
+    "nombre": "T23"
+  }
+},
+{
+  "model": "eventos.actividad",
+  "pk": 24,
+  "fields": {
+    "nombre": "T24"
+  }
+},
+{
+  "model": "eventos.registro",
+  "pk": 25,
+  "fields": {
+    "persona": 8,
+    "fecha": "2025-08-06",
+    "actividad_1": 14,
+    "horas_1": 5.0,
+    "actividad_2": 11,
+    "horas_2": 3.5,
+    "actividad_3": null,
+    "horas_3": null
+  }
+},
+{
+  "model": "eventos.registro",
+  "pk": 26,
+  "fields": {
+    "persona": 5,
+    "fecha": "2025-08-06",
+    "actividad_1": 5,
+    "horas_1": 2.5,
+    "actividad_2": 6,
+    "horas_2": 6.0,
+    "actividad_3": null,
+    "horas_3": null
+  }
+},
+{
+  "model": "eventos.registro",
+  "pk": 27,
+  "fields": {
+    "persona": 11,
+    "fecha": "2025-08-06",
+    "actividad_1": 9,
+    "horas_1": 2.0,
+    "actividad_2": 8,
+    "horas_2": 6.5,
+    "actividad_3": null,
+    "horas_3": null
+  }
+}
+]
